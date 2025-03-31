@@ -3,7 +3,7 @@ import HomePage from "../support/pageObjects/HomePage";
 import SearchPage from "../support/pageObjects/SearchPage";
 
 describe("Results list Page", () => {
-  let searchedLocation = "Mar del Plata";
+  let searchedLocation = "New York";
 
   beforeEach(() => {
     cy.GoToHome();
